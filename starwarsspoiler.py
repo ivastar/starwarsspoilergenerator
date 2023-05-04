@@ -46,10 +46,10 @@ random_parent2 = random.choice(parent2)
 
 # Website stuff
 
-print "Content-type: text/html\n\n"
+print("Content-type: text/html\n\n")
 
-print "<h1>Star Wars Spoiler Generator</h1> Based on <a href='https://xkcd.com/2243/'>this</a> XKCD Comic. Refresh the page to get a new version!<p>"
+print("<h1>Star Wars Spoiler Generator</h1> Based on <a href='https://xkcd.com/2243/'>this</a> XKCD Comic. Refresh the page to get a new version!<p>")
 
-print "In this Star Wars movie, our heroes return to take on the first order and new villain, <b>{}</b>, with help from their new friend, <b>{}</b>. Rey builds a new lightsaber with a <b>{}</b> blade, and they head out to confront the first order's new superweapon, the <b>{}</b>, a space station capable of <b>{}</b>. They unexpected join forces with their old enemy, <b>{}</b>, and destroy the superweapon in a battle featuring <b>{}</b>. <p>P.S.: Rey's parents are <b>{}</b> and <b>{}</b>".format(random_villain, random_friend, random_lightsaber_color, random_super_weapon, random_weapon_capability, random_enemy, random_battle_details, random_parent1, random_parent2 )
+print("In this Star Wars movie, our heroes return to take on the first order and new villain, <b>{}</b>, with help from their new friend, <b>{}</b>. Rey builds a new lightsaber with a <b>{}</b> blade, and they head out to confront the first order's new superweapon, the <b>{}</b>, a space station capable of <b>{}</b>. They unexpected join forces with their old enemy, <b>{}</b>, and destroy the superweapon in a battle featuring <b>{}</b>. <p>P.S.: Rey's parents are <b>{}</b> and <b>{}</b>".format(random_villain, random_friend, random_lightsaber_color, random_super_weapon, random_weapon_capability, random_enemy, random_battle_details, random_parent1, random_parent2 ))
 
-print "<p> Get the source code <a href='https://github.com/djotaku/starwarsspoilergenerator'>here</a>."
+print("<p> Get the source code <a href='https://github.com/djotaku/starwarsspoilergenerator'>here</a>.")
